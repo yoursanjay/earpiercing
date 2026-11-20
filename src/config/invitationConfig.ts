@@ -18,8 +18,8 @@ export const invitationConfig: InvitationConfig = {
     titleTamil: 'எங்கள் குல விளக்கு செல்லக் குழந்தை',
     titleEnglish: 'Our Beloved Little Prince',
     dateOfBirth: '2025-08-15',
-    // Using photorealistic traditional baby photography
-    photoUrl: 'https://images.unsplash.com/photo-1544126592-807ade215a0b?q=80&w=1200&auto=format&fit=crop',
+    // Using actual family baby photography from public/layer.webp
+    photoUrl: '/layer.webp',
     photoAlt: 'Child Aadithya Pranav in Traditional Attire',
     goldOrnamentTamil: 'மங்கள பொன் கடுக்கன்',
     goldOrnamentEnglish: 'Auspicious Gold Kadukkan (Earrings)',
@@ -154,7 +154,7 @@ export const invitationConfig: InvitationConfig = {
 
   gallery: [
     {
-      url: 'https://images.unsplash.com/photo-1544126592-807ade215a0b?q=80&w=1000&auto=format&fit=crop',
+      url: '/layer.webp',
       captionTamil: 'மழலை புன்னகையோடு எங்கள் செல்வக்குழந்தை',
       captionEnglish: 'Our Cherished Little Blessing in Traditional Splendor',
       tag: 'Baby',
