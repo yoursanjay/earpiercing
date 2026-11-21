@@ -14,7 +14,6 @@ First replace the current opening with the supplied responsive invitation artwor
 
 ### Phase 1: Invitation Cover
 **Goal**: Visitors see the exact supplied cover artwork and can open the invitation through its printed Tap to Open area.
-**Mode**: mvp
 **Depends on**: Nothing (first phase)
 **Requirements**: OPEN-01, OPEN-02, OPEN-03, OPEN-04
 **Success Criteria**:
@@ -29,7 +28,6 @@ Plans:
 
 ### Phase 2: Invitation Visual System
 **Goal**: Every existing invitation section feels like part of the same premium South Indian ceremony artwork.
-**Mode**: mvp
 **Depends on**: Phase 1
 **Requirements**: VIS-01, VIS-02, VIS-03
 **Success Criteria**:
@@ -43,7 +41,6 @@ Plans:
 
 ### Phase 3: Responsive and Functional Validation
 **Goal**: The redesigned invitation remains usable across device sizes and preserves all existing guest workflows.
-**Mode**: mvp
 **Depends on**: Phase 2
 **Requirements**: RESP-01, PRES-01, PRES-02
 **Success Criteria**:
