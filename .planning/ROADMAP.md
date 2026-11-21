@@ -25,7 +25,7 @@ First replace the current opening with the supplied responsive invitation artwor
 **Plans**: 1 plan
 
 Plans:
-- [ ] 01-01: Replace the current opening gate with image cover and cinematic transition
+- [ ] 01-01-PLAN.md — Replace the current opening gate with responsive image cover, transparent CTA, and cinematic transition
 
 ### Phase 2: Invitation Visual System
 **Goal**: Every existing invitation section feels like part of the same premium South Indian ceremony artwork.
