@@ -1,0 +1,25 @@
+{
+  "mode": "interactive",
+  "granularity": "coarse",
+  "model_profile": "quality",
+  "workflow": {
+    "research": false,
+    "plan_check": false,
+    "verifier": false,
+    "compact_content": true,
+    "nyquist_validation": false
+  },
+  "parallelization": {
+    "enabled": true
+  },
+  "planning": {
+    "commit_docs": true,
+    "sub_repos": []
+  },
+  "plan_review": {
+    "source_grounding": true
+  },
+  "ship": {
+    "pr_body_sections": []
+  }
+}
