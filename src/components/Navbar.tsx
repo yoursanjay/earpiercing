@@ -54,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({ language, onToggleLanguage }) =>
               {language === 'ta' ? invitationConfig.child.nameTamil : invitationConfig.child.nameEnglish}
             </span>
             <span className="text-[9px] sm:text-[10px] text-ivory-200/70 tracking-widest uppercase hidden xs:block">
-              {language === 'ta' ? 'காது குத்து விழா' : 'Ear-Piercing Ceremony'}
+              {language === 'ta' ? invitationConfig.event.titleTamil : invitationConfig.event.titleEnglish}
             </span>
           </div>
         </a>

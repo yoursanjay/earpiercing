@@ -37,8 +37,8 @@ export const FinalCelebration: React.FC<FinalCelebrationProps> = ({ language }) 
   // Share Invitation on WhatsApp
   const handleShareWhatsApp = () => {
     const shareText = language === 'ta'
-      ? `🙏 *${child.nameTamil}* அவர்களின் மங்கள *காது குத்து விழா அழைப்பிதழ்*! \n📅 நாள்: ${event.dateFormattedTamil} \n📍 இடம்: ${invitationConfig.venue.mandapamTamil}, ${invitationConfig.venue.cityTamil} \n\nஅழைப்பிதழை முழுமையாகக் காண இந்த இணைப்பைத் திறக்கவும்: ${window.location.href}`
-      : `🙏 Cordially inviting you to the traditional *Ear-Piercing Ceremony* of *${child.nameEnglish}*! \n📅 Date: ${event.dateFormattedEnglish} \n📍 Venue: ${invitationConfig.venue.mandapamEnglish}, ${invitationConfig.venue.cityEnglish} \n\nView the full interactive invitation here: ${window.location.href}`;
+      ? `🙏 *${child.nameTamil}* அவர்களின் மங்கள *${event.titleTamil}* அழைப்பிதழ்! \n📅 நாள்: ${event.dateFormattedTamil} \n📍 இடம்: ${invitationConfig.venue.mandapamTamil}, ${invitationConfig.venue.cityTamil} \n\nஅழைப்பிதழை முழுமையாகக் காண இந்த இணைப்பைத் திறக்கவும்: ${window.location.href}`
+      : `🙏 Cordially inviting you to the traditional *${event.titleEnglish}* of *${child.nameEnglish}*! \n📅 Date: ${event.dateFormattedEnglish} \n📍 Venue: ${invitationConfig.venue.mandapamEnglish}, ${invitationConfig.venue.cityEnglish} \n\nView the full interactive invitation here: ${window.location.href}`;
 
     const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText)}`;
     window.open(url, '_blank');

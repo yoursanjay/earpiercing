@@ -157,12 +157,12 @@ export const CinematicOpening: React.FC<CinematicOpeningProps> = ({ language, is
 
                 {/* Kula Deivam Blessing Badge */}
                 <div className="inline-block px-3 sm:px-4 py-0.5 sm:py-1 rounded-full bg-gold-500/20 border border-gold-400/40 text-gold-300 text-[10px] sm:text-xs font-semibold mb-2 sm:mb-3 tracking-widest">
-                  || ஸ்ரீ குலதெய்வம் துணை ||
+                  {language === 'ta' ? invitationConfig.event.blessingTamil : invitationConfig.event.blessingEnglish}
                 </div>
 
                 {/* Ceremony Title */}
                 <h2 className="font-tamil text-lg sm:text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gold-100 via-gold-300 to-gold-500 mb-1.5 sm:mb-2 leading-relaxed gold-text-glow break-words">
-                  காது குத்து விழா அழைப்பிதழ்
+                  {language === 'ta' ? invitationConfig.event.titleTamil : invitationConfig.event.titleEnglish}
                 </h2>
 
                 {/* Child Name Highlight */}
@@ -174,7 +174,7 @@ export const CinematicOpening: React.FC<CinematicOpeningProps> = ({ language, is
 
                 {/* Date & Muhurtham Preview */}
                 <p className="text-[10px] sm:text-xs text-gold-300/90 font-tamil mb-4 sm:mb-6">
-                  {invitationConfig.event.dateFormattedTamil} • {invitationConfig.event.muhurthamTimeTamil}
+                  {language === 'ta' ? invitationConfig.event.dateFormattedTamil : invitationConfig.event.dateFormattedEnglish} • {language === 'ta' ? invitationConfig.event.muhurthamTimeTamil : invitationConfig.event.muhurthamTimeEnglish}
                 </p>
 
                 {/* Prominent OPEN INVITATION Button */}
